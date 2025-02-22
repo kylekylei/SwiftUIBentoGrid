@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8427DC822C6F4E8600FE1D47 /* SwiftUIBentoGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427DC812C6F4E8600FE1D47 /* SwiftUIBentoGridApp.swift */; };
-		8427DC842C6F4E8600FE1D47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427DC832C6F4E8600FE1D47 /* ContentView.swift */; };
 		8427DC862C6F4E8800FE1D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8427DC852C6F4E8800FE1D47 /* Assets.xcassets */; };
 		8427DC892C6F4E8800FE1D47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8427DC882C6F4E8800FE1D47 /* Preview Assets.xcassets */; };
+		8427DC912C6F4EE300FE1D47 /* GridCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427DC8F2C6F4EE200FE1D47 /* GridCard.swift */; };
+		8427DC922C6F4EE300FE1D47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427DC902C6F4EE300FE1D47 /* ContentView.swift */; };
+		8427DC962C6F4EF200FE1D47 /* PreferenceKey+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427DC932C6F4EF200FE1D47 /* PreferenceKey+Extension.swift */; };
+		8427DC972C6F4EF200FE1D47 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427DC942C6F4EF200FE1D47 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8427DC7E2C6F4E8600FE1D47 /* SwiftUIBentoGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBentoGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8427DC812C6F4E8600FE1D47 /* SwiftUIBentoGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBentoGridApp.swift; sourceTree = "<group>"; };
-		8427DC832C6F4E8600FE1D47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8427DC852C6F4E8800FE1D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8427DC882C6F4E8800FE1D47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8427DC8F2C6F4EE200FE1D47 /* GridCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCard.swift; sourceTree = "<group>"; };
+		8427DC902C6F4EE300FE1D47 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8427DC932C6F4EF200FE1D47 /* PreferenceKey+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PreferenceKey+Extension.swift"; sourceTree = "<group>"; };
+		8427DC942C6F4EF200FE1D47 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				8427DC812C6F4E8600FE1D47 /* SwiftUIBentoGridApp.swift */,
-				8427DC832C6F4E8600FE1D47 /* ContentView.swift */,
+				8427DC902C6F4EE300FE1D47 /* ContentView.swift */,
+				8427DC8F2C6F4EE200FE1D47 /* GridCard.swift */,
+				8427DC952C6F4EF200FE1D47 /* Extension */,
 				8427DC852C6F4E8800FE1D47 /* Assets.xcassets */,
 				8427DC872C6F4E8800FE1D47 /* Preview Content */,
 			);
@@ -65,6 +73,15 @@
 				8427DC882C6F4E8800FE1D47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8427DC952C6F4EF200FE1D47 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8427DC932C6F4EF200FE1D47 /* PreferenceKey+Extension.swift */,
+				8427DC942C6F4EF200FE1D47 /* View+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8427DC842C6F4E8600FE1D47 /* ContentView.swift in Sources */,
+				8427DC962C6F4EF200FE1D47 /* PreferenceKey+Extension.swift in Sources */,
 				8427DC822C6F4E8600FE1D47 /* SwiftUIBentoGridApp.swift in Sources */,
+				8427DC972C6F4EF200FE1D47 /* View+Extension.swift in Sources */,
+				8427DC912C6F4EE300FE1D47 /* GridCard.swift in Sources */,
+				8427DC922C6F4EE300FE1D47 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

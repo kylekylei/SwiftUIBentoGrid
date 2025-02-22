@@ -2,7 +2,7 @@
 //  SwiftUIBentoGridApp.swift
 //  SwiftUIBentoGrid
 //
-//  Created by admin on 2024/8/16.
+//  Created by Kyle Lei on 2024/8/16.
 //
 
 import SwiftUI
